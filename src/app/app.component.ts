@@ -10,8 +10,8 @@ export class AppComponent {
   title = 'app';
   searchText = '';
 
-  searchChange($event) {
-    this.searchText = $event;
+  searchChange(value) {
+    this.searchText = value;
   }
 
 }
